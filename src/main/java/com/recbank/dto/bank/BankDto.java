@@ -1,4 +1,4 @@
-package com.kbank.dto.bank;
+package com.recbank.dto.bank;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

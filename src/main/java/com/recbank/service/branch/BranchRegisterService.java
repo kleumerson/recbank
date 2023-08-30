@@ -1,8 +1,8 @@
-package com.kbank.service.branch;
+package com.recbank.service.branch;
 
-import com.kbank.dto.branch.BranchDto;
-import com.kbank.model.branch.Branch;
-import com.kbank.repository.branch.BranchRegisterRepository;
+import com.recbank.dto.branch.BranchDto;
+import com.recbank.model.branch.Branch;
+import com.recbank.repository.branch.BranchRegisterRepository;
 import jakarta.transaction.Transactional;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

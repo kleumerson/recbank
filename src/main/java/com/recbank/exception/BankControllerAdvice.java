@@ -1,4 +1,4 @@
-package com.kbank.exception;
+package com.recbank.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

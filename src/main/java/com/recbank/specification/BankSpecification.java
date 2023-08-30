@@ -1,6 +1,6 @@
-package com.kbank.specification;
+package com.recbank.specification;
 
-import com.kbank.model.bank.Bank;
+import com.recbank.model.bank.Bank;
 import org.springframework.data.jpa.domain.Specification;
 
 public class BankSpecification {

@@ -1,6 +1,6 @@
-package com.kbank.repository.branch;
+package com.recbank.repository.branch;
 
-import com.kbank.model.branch.Branch;
+import com.recbank.model.branch.Branch;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

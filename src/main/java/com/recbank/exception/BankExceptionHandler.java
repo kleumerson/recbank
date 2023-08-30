@@ -1,4 +1,4 @@
-package com.kbank.exception;
+package com.recbank.exception;
 
 import java.util.Date;
 

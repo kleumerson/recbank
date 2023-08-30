@@ -1,4 +1,4 @@
-package com.kbank.dto.bank;
+package com.recbank.dto.bank;
 
 public class BankMapper {
     public static BankMapper fromBankToResponse;

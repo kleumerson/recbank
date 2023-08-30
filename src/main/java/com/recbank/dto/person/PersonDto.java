@@ -1,16 +1,22 @@
-package com.recbank.dto.branch;
+package com.recbank.dto.person;
 
-import com.recbank.dto.bank.BankDto;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class BranchDto {
+public class PersonDto {
+
     private int id;
+
     private String address;
-    private int code;
+
+    private String email;
+
     private String name;
+
     private String phone;
-    private BankDto bank;
+
+    private String socialNumber;
+
 }

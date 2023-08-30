@@ -1,4 +1,4 @@
-package com.kbank.model.bank;
+package com.recbank.model.bank;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

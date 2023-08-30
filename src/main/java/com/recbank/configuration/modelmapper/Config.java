@@ -1,4 +1,4 @@
-package com.kbank.configuration.modelmapper;
+package com.recbank.configuration.modelmapper;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

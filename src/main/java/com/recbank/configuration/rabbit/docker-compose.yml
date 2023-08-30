@@ -1,0 +1,19 @@
+version: "3.12"
+services:
+  rabbitmq:
+    image: rabbitmq3.12-management
+    container_name: rabbitmq
+    restart: always
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - ./dados:/var/lib/rabbitmq/
+    environment:
+      - RABBITMQ_DEFAULT_USER=kleumerson
+      - RABBITMQ_DEFAULT_PASS=kleumerson
+
+
+
+#docker-compose up
+#docker-compose down

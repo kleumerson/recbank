@@ -1,10 +1,10 @@
-package com.kbank.service.bank;
+package com.recbank.service.bank;
 
-import com.kbank.dto.bank.BankDto;
-import com.kbank.exception.BankNotFoundException;
-import com.kbank.model.bank.Bank;
-import com.kbank.repository.bank.BankRegisterRepository;
-import com.kbank.specification.BankSpecification;
+import com.recbank.dto.bank.BankDto;
+import com.recbank.exception.BankNotFoundException;
+import com.recbank.model.bank.Bank;
+import com.recbank.repository.bank.BankRegisterRepository;
+import com.recbank.specification.BankSpecification;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;

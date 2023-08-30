@@ -1,6 +1,6 @@
-package com.kbank.repository.bank;
+package com.recbank.repository.bank;
 
-import com.kbank.model.bank.Bank;
+import com.recbank.model.bank.Bank;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;

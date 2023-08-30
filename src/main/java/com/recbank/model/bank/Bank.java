@@ -1,6 +1,6 @@
-package com.kbank.model.bank;
+package com.recbank.model.bank;
 
-import com.kbank.model.branch.Branch;
+import com.recbank.model.branch.Branch;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;

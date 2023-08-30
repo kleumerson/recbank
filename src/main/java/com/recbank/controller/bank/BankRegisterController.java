@@ -1,7 +1,7 @@
-package com.kbank.controller.bank;
+package com.recbank.controller.bank;
 
-import com.kbank.dto.bank.BankDto;
-import com.kbank.service.bank.BankRegisterService;
+import com.recbank.dto.bank.BankDto;
+import com.recbank.service.bank.BankRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

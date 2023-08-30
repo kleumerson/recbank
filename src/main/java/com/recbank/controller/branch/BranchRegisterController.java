@@ -1,7 +1,7 @@
-package com.kbank.controller.branch;
+package com.recbank.controller.branch;
 
-import com.kbank.dto.branch.BranchDto;
-import com.kbank.service.branch.BranchRegisterService;
+import com.recbank.dto.branch.BranchDto;
+import com.recbank.service.branch.BranchRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
