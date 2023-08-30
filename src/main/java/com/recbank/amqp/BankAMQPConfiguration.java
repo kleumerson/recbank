@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class BankAMQPConfiguration {
     @Bean
     public RabbitTemplate connectionFactory(ConnectionFactory connectionFactory){
-       RabbitTemplate git rabbitTemplate = new RabbitTemplate(connectionFactory);
+       RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory);
        return rabbitTemplate;
     }
 }
